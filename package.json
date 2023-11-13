@@ -7,9 +7,9 @@
   "homepage": "https://piyushg1.github.io/cloud-canteen/",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir build",
+    "build": "parcel build index.html",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
