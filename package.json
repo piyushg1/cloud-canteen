@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "cloud canteen",
   "author": "piyush gour",
-  "main": "App.js",
   "license": "MIT",
-  "homepage": "https://piyushg1.github.io/cloud-canteen",
+  "homepage": "https://piyushg1.github.io/cloud-canteen/",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "parcel": "^2.10.1",
