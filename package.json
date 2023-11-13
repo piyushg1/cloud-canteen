@@ -7,18 +7,18 @@
   "homepage": "https://piyushg1.github.io/cloud-canteen/",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --out-dir build",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "parcel": "^2.10.1",
     "process": "^0.11.10"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "bootstrap": "^5.3.2",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
