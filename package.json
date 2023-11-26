@@ -8,11 +8,9 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "yarn build"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
     "parcel": "^2.10.1",
     "process": "^0.11.10"
   },
